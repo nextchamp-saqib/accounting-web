@@ -19,6 +19,7 @@
     "cross-env": "^5.2.0",
     "express": "^4.16.3",
     "gsap": "^2.0.2",
+    "ks-vue-scrollmagic": "^1.0.2",
     "node-sass": "^4.11.0",
     "nuxt": "^2.0.0",
     "sass-loader": "^7.1.0"

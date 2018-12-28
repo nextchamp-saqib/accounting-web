@@ -1,6 +1,6 @@
 <template>
   <svg xmlns="http://www.w3.org/2000/svg" width="199" height="222" viewBox="0 0 149 222">
-    <g id="feature1" transform="translate(-1246 -332)" opacity="1">
+    <g id="Coa" transform="translate(-1246 -332)" opacity="1">
       <rect
         id="Rectangle_23"
         class="account"
@@ -158,46 +158,25 @@
 <script>
 export default {
   name: 'Coa',
-  beforeMount() {
-    let timeline2 = new TimelineMax({
+  mounted() {
+    let scene = new this.$scrollmagic.Scene({
+      triggerElement: '#Coa'
+    })
+    let timeline1 = new this.$gsap.TimelineMax({
       paused: false,
       defaultEase: Linear.easeNone,
-      onComplete: () => {
-        // timeline2.restart()
-      }
+      onComplete: () => this.$emit('completed', 2)
     })
+    timeline1
+      .from('.account', 1.5, { scaleX: 0, opacity: 0 })
+      .to('.card-title', 1.5, { opacity: 1 }, '-=1')
+      .to('.card-description', 1.5, { opacity: 1 }, '-=1.5')
 
-    timeline2
-      .from('.account', 1.5, {
-        scaleX: 0,
-        opacity: 0
-      })
-      .to(
-        '.card-title',
-        1.5,
-        {
-          opacity: 1
-        },
-        '-=1'
-      )
-      .to(
-        '.card-description',
-        1.5,
-        {
-          opacity: 1
-        },
-        '-=1.5'
-      )
-
-    // timeline2.play()
-
-    let controller = new ScrollMagic.Controller()
-
-    let scene = new ScrollMagic.Scene({
-      triggerElement: '#feature1'
-    })
-      .addTo(controller)
-      .setTween(timeline2)
+    scene.setTween(timeline1)
+    this.$ksvuescr.$emit('addScene', 'scene1', scene)
+  },
+  destroyed() {
+    this.$ksvuescr.$emit('destroyScene', 'scene1')
   }
 }
 </script>

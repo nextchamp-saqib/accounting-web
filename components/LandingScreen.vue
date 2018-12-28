@@ -26,11 +26,14 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+.container
+  position: relative
+
 img
   position: absolute
   top: 60px
-  width: 100%
-  height: 190%
+  width: 100vw
+  height: 190vh
   z-index: 0
 
 .title
@@ -49,6 +52,5 @@ img
 .svgIcon
   z-index: 1
   margin: auto 0vw auto 5vw
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1)
 
 </style>

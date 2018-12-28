@@ -29,23 +29,7 @@ module.exports = {
         href: '/favicon.ico'
       }
     ],
-    script: [
-      {
-        src:
-          'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js'
-      },
-      {
-        src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js'
-      },
-      {
-        src:
-          'https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js'
-      },
-      {
-        src:
-          'https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js'
-      }
-    ]
+    script: []
   },
 
   /*
@@ -63,7 +47,12 @@ module.exports = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [
+    {
+      src: '~/plugins/ksvuescrollmagic',
+      ssr: false
+    }
+  ],
 
   /*
    ** Nuxt.js modules

@@ -35,6 +35,8 @@ module.exports = {
       },
       "svg": "never",
       "math": "never",
-    }]
+    }],
+    "vue/require-default-prop": ["warn"],
+    "vue/require-prop-types": ["warn"]
   }
 }

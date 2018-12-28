@@ -2,24 +2,46 @@
   <div id="scrollAnimation" class="screen container d-flex">
     <img class="path" src="/Path 2.png">
     <div class="card">
-      <coa/>
+      <Coa v-if="currentTimeline === 't1'" @completed="onComplete"/>
+      <Setup v-if="currentTimeline === 't2'" @completed="onComplete"/>
     </div>
     <div class="card-info">
-      <div class="card-title">Chart of Accounts</div>
-      <div class="card-description">Country-wise chart of accounts.</div>
+      <div class="card-title">{{ title }}</div>
+      <div class="card-description">{{ description }}</div>
     </div>
   </div>
 </template>
 
 <script>
 import Coa from './svgs/Coa'
+import Setup from './svgs/Setup'
 
 export default {
   name: 'ThirdScreen',
   components: {
-    Coa
+    Coa,
+    Setup
   },
-  beforeMount() {}
+  data() {
+    return {
+      currentTimeline: 't1'
+    }
+  },
+  computed: {
+    title() {
+      return this.currentTimeline === 't1' ? 'Chart of Accounts' : 'Easy Setup'
+    },
+    description() {
+      return this.currentTimeline === 't1'
+        ? 'Country-wise chart of accounts.'
+        : 'Super easy setup'
+    }
+  },
+  methods: {
+    onComplete(data) {
+      this.currentTimeline = 't' + data
+    }
+  }
 }
 </script>
 
