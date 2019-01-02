@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import Logo from './Logo'
+import Logo from '../animated/Logo'
 
 export default {
   name: 'LandingScreen',

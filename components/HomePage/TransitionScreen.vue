@@ -4,6 +4,7 @@
     <div class="card">
       <Coa v-if="currentTimeline === 't1'" @completed="onComplete"/>
       <Setup v-if="currentTimeline === 't2'" @completed="onComplete"/>
+      <Invoices v-if="currentTimeline === 't3'" @completed="onComplete"/>
     </div>
     <div class="card-info">
       <div class="card-title">{{ title }}</div>
@@ -13,14 +14,16 @@
 </template>
 
 <script>
-import Coa from './svgs/Coa'
-import Setup from './svgs/Setup'
+import Coa from '../animated/Coa'
+import Setup from '../animated/Setup'
+import Invoices from '../animated/Invoices'
 
 export default {
-  name: 'ThirdScreen',
+  name: 'TransitionScreen',
   components: {
     Coa,
-    Setup
+    Setup,
+    Invoices
   },
   data() {
     return {
@@ -48,18 +51,20 @@ export default {
 <style lang="sass" scoped>
 .screen
   position: relative
+
 .card
-  width: 36vw
-  height:  42vh
+  background: transparent
+  width: 30rem
+  height:  18rem
   margin: auto 5vw
   border: none
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.2)
-  padding: 2vw
+  // box-shadow: 0px 0px 10px rgba(0,0,0,0.2)
+  // padding: 2rem
 
 .path
   position: absolute
   bottom: 15vh
-  left: -24px
+  left: -10px
   width: 48vw
 
 

@@ -5,9 +5,7 @@
       <div class="company-name">Frappe</div>
     </div>
     <div class="navbar-right">
-      <a>Home</a>
-      <a>Pricing</a>
-      <a>Support</a>
+      <a>Docs</a>
     </div>
   </div>
 </template>

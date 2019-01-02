@@ -1,85 +1,22 @@
 <template>
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
-    width="540.791"
-    height="503.908"
-    viewBox="0 0 783.791 503.908"
+    width="420.791"
+    height="483.955"
+    viewBox="0 0 678.791 483.955"
   >
-    <defs>
-      <filter
-        id="Rectangle_53"
-        x="8"
-        y="0"
-        width="768.791"
-        height="502.908"
-        filterUnits="userSpaceOnUse"
-      >
-        <feOffset dy="-5" input="SourceAlpha"></feOffset>
-        <feGaussianBlur stdDeviation="15" result="blur"></feGaussianBlur>
-        <feFlood flood-opacity="0.102"></feFlood>
-        <feComposite operator="in" in2="blur"></feComposite>
-        <feComposite in="SourceGraphic"></feComposite>
-      </filter>
-      <filter
-        id="Rectangle_54"
-        x="0"
-        y="451"
-        width="783.791"
-        height="52.908"
-        filterUnits="userSpaceOnUse"
-      >
-        <feOffset dy="4" input="SourceAlpha"></feOffset>
-        <feGaussianBlur stdDeviation="5" result="blur-2"></feGaussianBlur>
-        <feFlood flood-opacity="0.161"></feFlood>
-        <feComposite operator="in" in2="blur-2"></feComposite>
-        <feComposite in="SourceGraphic"></feComposite>
-      </filter>
-    </defs>
-    <g id="appSvg" transform="translate(-968.209 -172.011)">
+    <g id="appSvg" transform="translate(-1021.209 -226.011)">
       <g id="conatainer">
-        <g transform="matrix(1, 0, 0, 1, 968.21, 172.01)" filter="url(#Rectangle_53)">
-          <g
-            id="Rectangle_53-2"
-            data-name="Rectangle 53"
-            transform="translate(53 50)"
-            fill="#eaeaea"
-            stroke="#b9b9b9"
-            stroke-width="1"
-          >
-            <rect width="678.791" height="412.908" rx="17" stroke="none"></rect>
-            <rect x="0.5" y="0.5" width="677.791" height="411.908" rx="16.5" fill="none"></rect>
-          </g>
-        </g>
-        <g transform="matrix(1, 0, 0, 1, 968.21, 172.01)" filter="url(#Rectangle_54)">
-          <g
-            id="Rectangle_54-2"
-            data-name="Rectangle 54"
-            transform="translate(15 462)"
-            fill="#f4f4f4"
-            stroke="#b9b9b9"
-            stroke-width="1"
-          >
-            <rect width="753.791" height="22.908" rx="6" stroke="none"></rect>
-            <rect x="0.5" y="0.5" width="752.791" height="21.908" rx="5.5" fill="none"></rect>
-          </g>
-        </g>
         <g
-          id="Rectangle_55"
-          data-name="Rectangle 55"
-          transform="translate(1312 634)"
-          fill="#fff"
-          stroke="#cecece"
+          id="Rectangle_53"
+          data-name="Rectangle 53"
+          transform="translate(1021.209 226.011)"
+          fill="#eaeaea"
+          stroke="#b9b9b9"
           stroke-width="1"
         >
-          <path
-            d="M0,0H97a0,0,0,0,1,0,0V3a8,8,0,0,1-8,8H7A7,7,0,0,1,0,4V0A0,0,0,0,1,0,0Z"
-            stroke="none"
-          ></path>
-          <path
-            d="M1,.5H96a.5.5,0,0,1,.5.5V3A7.5,7.5,0,0,1,89,10.5H7A6.5,6.5,0,0,1,.5,4V1A.5.5,0,0,1,1,.5Z"
-            fill="none"
-          ></path>
+          <rect width="678.791" height="436.908" rx="7" stroke="none"></rect>
+          <rect x="0.5" y="0.5" width="677.791" height="435.908" rx="6.5" fill="none"></rect>
         </g>
         <g
           id="Rectangle_7"
@@ -95,13 +32,35 @@
         <g
           id="Ellipse_4"
           data-name="Ellipse 4"
-          transform="translate(1357 231)"
+          transform="translate(1352 630)"
           fill="#d1d1d1"
           stroke="#cecece"
           stroke-width="1"
         >
-          <circle cx="4" cy="4" r="4" stroke="none"></circle>
-          <circle cx="4" cy="4" r="3.5" fill="none"></circle>
+          <circle cx="8.5" cy="8.5" r="8.5" stroke="none"></circle>
+          <circle cx="8.5" cy="8.5" r="8" fill="none"></circle>
+        </g>
+        <g id="Path_7" data-name="Path 7" transform="translate(1229.209 697.011)" fill="#eaeaea">
+          <path
+            d="M 262.291259765625 12.45465087890625 L 0.499996542930603 12.45465087890625 L 0.499996542930603 0.499984472990036 L 262.291259765625 0.499984472990036 L 262.291259765625 12.45465087890625 Z"
+            stroke="none"
+          ></path>
+          <path
+            d="M 1 0.9999847412109375 L 1 11.95465087890625 L 261.791259765625 11.95465087890625 L 261.791259765625 0.9999847412109375 L 1 0.9999847412109375 M 0 -1.52587890625e-05 L 262.791259765625 -1.52587890625e-05 L 262.791259765625 12.95465087890625 L 0 12.95465087890625 L 0 -1.52587890625e-05 Z"
+            stroke="none"
+            fill="#b9b9b9"
+          ></path>
+        </g>
+        <g
+          id="Rectangle_129"
+          data-name="Rectangle 129"
+          transform="translate(1332 662)"
+          fill="#eaeaea"
+          stroke="#b9b9b9"
+          stroke-width="1"
+        >
+          <rect width="58" height="36" stroke="none"></rect>
+          <rect x="0.5" y="0.5" width="57" height="35" fill="none"></rect>
         </g>
       </g>
       <path

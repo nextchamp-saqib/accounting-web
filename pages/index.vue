@@ -7,21 +7,26 @@
       <FeaturesScreen/>
     </div>
     <div class="container">
-      <ThirdScreen/>
+      <TransitionScreen/>
+    </div>
+    <div class="container main-footer">
+      <Footer/>
     </div>
   </section>
 </template>
 
 <script>
-import LandingScreen from '~/components/LandingScreen'
-import FeaturesScreen from '~/components/FeaturesScreen'
-import ThirdScreen from '~/components/ThirdScreen'
+import LandingScreen from '~/components/HomePage/LandingScreen'
+import FeaturesScreen from '~/components/HomePage/FeaturesScreen'
+import TransitionScreen from '~/components/HomePage/TransitionScreen'
+import Footer from '~/components/Footer'
 
 export default {
   components: {
     LandingScreen,
     FeaturesScreen,
-    ThirdScreen
+    TransitionScreen,
+    Footer
   }
 }
 </script>
@@ -33,5 +38,9 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+.main-footer {
+  min-width: 100vw;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 </style>

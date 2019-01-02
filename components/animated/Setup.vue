@@ -226,7 +226,7 @@ export default {
     let timeline2 = new TimelineMax({
       paused: false,
       defaultEase: Linear.easeNone,
-      onComplete: () => this.$emit('completed', 1)
+      onComplete: () => this.$emit('completed', 3)
     })
     let scene = new this.$scrollmagic.Scene({
       triggerElement: '#Setup'
