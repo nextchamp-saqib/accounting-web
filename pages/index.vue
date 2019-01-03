@@ -9,9 +9,6 @@
     <div class="container">
       <TransitionScreen/>
     </div>
-    <div class="container main-footer">
-      <Footer/>
-    </div>
   </section>
 </template>
 
@@ -31,7 +28,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .container {
   min-height: 100vh;
   display: flex;

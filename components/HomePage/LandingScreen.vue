@@ -3,8 +3,8 @@
     <img src="background.png">
     <div class="title">
       <h1 class="bold">Frappe Accounting</h1>
-      <p>Offline Accounting software for everyone,
-        <br>with Invoicing, Payments and Reports.
+      <p>Manage your business with free
+        <br> and handy accounting app
       </p>
       <button class="btn btn-default">Download Now!</button>
     </div>

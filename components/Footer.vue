@@ -9,4 +9,7 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+.container
+  min-height: 100vh
+  background-color: rgba(0,0,0,0.6)
 </style>
