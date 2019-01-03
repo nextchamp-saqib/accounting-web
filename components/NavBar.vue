@@ -5,7 +5,8 @@
       <div class="company-name">Frappe</div>
     </div>
     <div class="navbar-right">
-      <a>Docs</a>
+      <!-- <a>Docs</a> -->
+      <nuxt-link to="/docs">Docs</nuxt-link>
     </div>
   </div>
 </template>

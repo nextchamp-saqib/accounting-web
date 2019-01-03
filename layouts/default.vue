@@ -2,23 +2,27 @@
   <div>
     <NavBar/>
     <nuxt/>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import NavBar from '~/components/NavBar'
+import Footer from '~/components/Footer'
 
 export default {
   components: {
-    NavBar
+    NavBar,
+    Footer
   }
 }
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Catamaran');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
 body {
-  font-family: 'Catamaran', sans-serif !important;
+  font-family: 'Fira Sans', sans-serif !important;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
