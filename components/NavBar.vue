@@ -6,6 +6,7 @@
     </div>
     <div class="navbar-right">
       <!-- <a>Docs</a> -->
+      <nuxt-link to="/">Home</nuxt-link>
       <nuxt-link to="/docs">Docs</nuxt-link>
     </div>
   </div>
