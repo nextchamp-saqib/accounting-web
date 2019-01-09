@@ -1,8 +1,8 @@
 <template>
-  <div class="container">
-    <div class="title">Why Frappe Accounting?</div>
-    <div class="screen d-flex">
-      <div v-for="(feature, index) in features" :key="index" class="card">
+  <div class="container row">
+    <div class="title col-md-12">Why Frappe Accounting?</div>
+    <div class="screen col-md-12 row d-flex">
+      <div v-for="(feature, index) in features" :key="index" class="card col-md-5">
         <div class="card-title">{{ feature.title }}</div>
         <div class="card-description">{{ feature.desc }}}</div>
         <div class="card-image d-flex align-items-center">
@@ -54,7 +54,6 @@ export default {
   display: flex
   flex-direction: row
   flex-wrap: wrap
-  min-height: 80vh
 
 .screen
   flex-wrap: wrap
@@ -64,8 +63,7 @@ export default {
 
 .card
   background-color: rgba(249,249,249,1)
-  width: 40vw
-  margin: 1vw 1vw
+  margin: 2vw auto
   padding: 18px
   border-radius: 5px
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1)
