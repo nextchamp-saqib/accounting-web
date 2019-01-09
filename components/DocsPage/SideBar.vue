@@ -1,7 +1,6 @@
 <template>
   <div class="container">
-    <h1>SideBar</h1>
-    <!-- <nuxt-link :to="{ hello: 'hello2'}">User</nuxt-link> -->
+    <nuxt-link :to="'/docs/hello'">User</nuxt-link>
   </div>
 </template>
 

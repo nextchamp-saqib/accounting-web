@@ -22,12 +22,11 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-
 a
-  color: #455a64;
+  color: #455a64
   &:hover
-    color: black;
-    text-decoration: none;
+    color: black
+    text-decoration: none
 
 .navbar
   position: fixed
