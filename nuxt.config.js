@@ -26,7 +26,7 @@ module.exports = {
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: '/favicon.ico'
+        href: '/favicon.png'
       }
     ],
     script: []
@@ -61,13 +61,19 @@ module.exports = {
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
     // Doc: https://bootstrap-vue.js.org/docs/
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
+    '@nuxtjs/markdownit'
   ],
   /*
    ** Axios module configuration
    */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
+  },
+  markdownit: {
+    preset: 'default',
+    linkify: true,
+    breaks: true
   },
 
   /*

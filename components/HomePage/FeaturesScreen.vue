@@ -1,11 +1,11 @@
 <template>
   <div class="container row">
     <div class="title col-md-12">Why Frappe Accounting?</div>
-    <div class="screen col-md-12 row d-flex">
-      <div v-for="(feature, index) in features" :key="index" class="feature col-md-5">
-        <div class="feature-title">{{ feature.title }}</div>
-        <div class="feayure-description">{{ feature.desc }}}</div>
-        <div class="feature-icon d-flex align-items-center">
+    <div class="screen d-flex col-md-12 row">
+      <div v-for="(feature, index) in features" :key="index" class="card col-md-5">
+        <div class="card-title">{{ feature.title }}</div>
+        <div class="card-description">{{ feature.desc }}}</div>
+        <div class="card-image d-flex align-items-center">
           <img :src="feature.icon">
         </div>
       </div>
@@ -68,14 +68,18 @@ export default {
 
 .feature
   background-color: rgba(249,249,249,1)
+  width: 30vw
   margin: 1vw auto
   padding: 18px
-  border-radius: 5px
+  border-radius: 10px
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1)
   transition: all .2s ease-in-out
   &:hover
     transform: scale(1.01)
-    color: #007BFF
+    .card-title  
+      color: #007BFF
+
+
 
 .feature-icon
   width: 42px

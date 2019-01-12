@@ -2,11 +2,12 @@
   <div class="navbar">
     <div class="navbar-left">
       <img class="frappe-logo" src="/logo.png">
-      <div class="company-name">Frappe</div>
+      <nuxt-link to="/">
+        <div class="company-name">Frappe</div>
+      </nuxt-link>
     </div>
     <div class="navbar-right">
-      <!-- <a>Docs</a> -->
-      <nuxt-link to="/docs">Docs</nuxt-link>
+      <nuxt-link to="/docs/quick-start">Docs</nuxt-link>
     </div>
   </div>
 </template>
@@ -21,6 +22,12 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+a
+  color: #455a64
+  &:hover
+    color: black
+    text-decoration: none
+
 .navbar
   position: fixed
   width: 100%
@@ -38,9 +45,10 @@ export default {
 
   .navbar-left
     display: flex
+    margin: 0 70px;
     .company-name
-      margin: 0 12px
-      font-size: 24px
+      margin: 0 5px
+      font-size: 20px
       font-weight: bold
     .frappe-logo
       width: 32px
