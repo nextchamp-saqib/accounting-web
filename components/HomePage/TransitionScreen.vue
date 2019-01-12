@@ -1,17 +1,5 @@
 <template>
   <div id="scrollAnimation" class="screen container d-flex">
-    <div class="animation-box d-flex align-items-center">
-      <img class="path" src="/transitionBackground.png">
-      <!-- <div v-if="currTranstition === 0" class="animation">
-        <Setup @completed="onComplete"/>
-      </div>
-      <div v-if="currTranstition === 1" class="animation">
-        <Invoices @completed="onComplete"/>
-      </div> -->
-      <div v-if="currTranstition === 2" class="animation">
-        <BankReconcilation @completed="onComplete"/>
-      </div>
-    </div>
     <div class="animation-list">
       <div class="main-title">Key Features</div>
       <div
@@ -24,30 +12,46 @@
         <div v-if="index === currTranstition" class="description">{{ item.description }}</div>
       </div>
     </div>
+    <div class="animation-box d-flex align-items-center">
+      <img class="path" src="/transitionBackground.png">
+      <div v-if="currTranstition === 0" class="animation">
+        <ReportGen @completed="onComplete"/>
+      </div>
+      <div v-if="currTranstition === 1" class="animation">
+        <Invoices @completed="onComplete"/>
+      </div>
+      <div v-if="currTranstition === 2" class="animation">
+        <BankReconcilation @completed="onComplete"/>
+      </div>
+      <div v-if="currTranstition === 3" class="animation">
+        <GSTR @completed="onComplete"/>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import Coa from '../animated/Coa'
-import Setup from '../animated/Setup'
+import ReportGen from '../animated/ReportGen'
+import GSTR from '../animated/GSTR'
 import Invoices from '../animated/Invoices'
 import BankReconcilation from '../animated/BankReconcilation'
 
 export default {
   name: 'TransitionScreen',
   components: {
-    Coa,
-    Setup,
+    ReportGen,
     Invoices,
-    BankReconcilation
+    BankReconcilation,
+    GSTR
   },
   data() {
     return {
-      currTranstition: 2,
+      currTranstition: 0,
       animations: [
         {
-          title: 'Easy Setup',
-          description: 'Super easy and fast setup'
+          title: 'Automated Report Generation',
+          description:
+            'View all kinds of business reports and export them on the go.'
         },
         {
           title: 'Customizable Invoice templates',
@@ -84,12 +88,13 @@ export default {
 .animation-box
   position: relative
   background: none
-  width: 48vw
+  width: 68vw
   height: 50vh
-  margin: auto 1vw
+  // margin: auto 1vw
   border: none
   // box-shadow: 0px 0px 10px rgba(0,0,0,0.2)
 
+  
 .animation
   z-index: 1
   margin: auto auto
@@ -100,15 +105,13 @@ export default {
 .path
   position: absolute
   bottom: 0vh
-  left: -4vw
+  left: 4vw
   width: 48vw
 
 
 .animation-list
   // box-shadow: 0px 0px 10px rgba(0,0,0,0.2)
-  width: 48vw
-  // height:  42vh
-  margin: auto 1vw
+  // margin: auto 1vw
   border: none
   text-align: left
 
@@ -147,4 +150,11 @@ export default {
 
 .description
   font-size: 15px
+
+svg 
+  position: absolute
+  left: 0
+  right: 0
+  width: 100%
+  height: 100%
 </style>

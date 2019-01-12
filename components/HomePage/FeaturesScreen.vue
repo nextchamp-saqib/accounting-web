@@ -2,10 +2,10 @@
   <div class="container row">
     <div class="title col-md-12">Why Frappe Accounting?</div>
     <div class="screen col-md-12 row d-flex">
-      <div v-for="(feature, index) in features" :key="index" class="card col-md-5">
-        <div class="card-title">{{ feature.title }}</div>
-        <div class="card-description">{{ feature.desc }}}</div>
-        <div class="card-image d-flex align-items-center">
+      <div v-for="(feature, index) in features" :key="index" class="feature col-md-5">
+        <div class="feature-title">{{ feature.title }}</div>
+        <div class="feayure-description">{{ feature.desc }}}</div>
+        <div class="feature-icon d-flex align-items-center">
           <img :src="feature.icon">
         </div>
       </div>
@@ -53,17 +53,22 @@ export default {
 .container
   display: flex
   flex-direction: row
+  justify-content: flex-start
   flex-wrap: wrap
 
 .screen
+  min-width: 90vw
   flex-wrap: wrap
+
+.icon
+  min-width: 5vw
 
 .title
   font-size: 3rem
 
-.card
+.feature
   background-color: rgba(249,249,249,1)
-  margin: 2vw auto
+  margin: 1vw auto
   padding: 18px
   border-radius: 5px
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1)
@@ -72,18 +77,18 @@ export default {
     transform: scale(1.01)
     color: #007BFF
 
-.card-image
+.feature-icon
   width: 42px
   height: 42px
   margin: 12px auto
   img
     width: 100%
 
-.card-title
+.feature-title
   margin: 14px auto
   font-weight: bold
   font-size: 1.5rem
 
-.card-description
+.feature-description
   font-size: 15px
 </style>

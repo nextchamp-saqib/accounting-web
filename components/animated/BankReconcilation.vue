@@ -63,6 +63,20 @@
         <feComposite operator="in" in2="blur-4"></feComposite>
         <feComposite in="SourceGraphic"></feComposite>
       </filter>
+      <filter
+        id="Rectangle_146"
+        x="452"
+        y="346"
+        width="134"
+        height="54"
+        filterUnits="userSpaceOnUse"
+      >
+        <feOffset dy="3" input="SourceAlpha"></feOffset>
+        <feGaussianBlur stdDeviation="3" result="blur-5"></feGaussianBlur>
+        <feFlood flood-opacity="0.161"></feFlood>
+        <feComposite operator="in" in2="blur-5"></feComposite>
+        <feComposite in="SourceGraphic"></feComposite>
+      </filter>
     </defs>
     <g id="BankReconcile" transform="translate(-2894 -603)">
       <g
@@ -369,6 +383,16 @@
             height="16.28"
             rx="8"
             transform="translate(372.77 9.303)"
+            fill="#52a058"
+            opacity="0"
+          ></rect>
+          <rect
+            id="status-5"
+            data-name="status"
+            width="16.28"
+            height="16.28"
+            rx="8"
+            transform="translate(372.77 9.303)"
             fill="#dd9b4f"
           ></rect>
           <text
@@ -394,7 +418,7 @@
           </text>
         </g>
       </g>
-      <g id="WIndow" opacity="0">
+      <g id="Window" opacity="0">
         <g transform="matrix(1, 0, 0, 1, 2894, 603)" filter="url(#Rectangle_137)">
           <rect
             id="Rectangle_137-2"
@@ -492,6 +516,18 @@
             fill="#007bff"
           ></rect>
         </g>
+        <g transform="matrix(1, 0, 0, 1, 2894, 603)" filter="url(#Rectangle_146)">
+          <rect
+            id="Rectangle_146-2"
+            data-name="Rectangle 146"
+            width="116"
+            height="36"
+            rx="8"
+            transform="translate(461 352)"
+            fill="#0063cc"
+            opacity="0"
+          ></rect>
+        </g>
         <text
           id="Cancel"
           transform="translate(3255 978)"
@@ -527,10 +563,10 @@ export default {
     let timeline = new this.$gsap.TimelineMax({
       paused: false,
       defaultEase: Circ.easeOut,
-      onComplete: () => timeline.restart() // this.$emit('completed', 3)
+      onComplete: () => this.$emit('completed', 4)
     })
     timeline
-      .from('#BankReconcilation', 0.7, { opacity: 0, delay: 2 })
+      .from('#BankReconcilation', 0.7, { opacity: 0 })
       .to('#RowOne', 0.7, { opacity: 1 })
       .from('#PAY-001', 0.2, { x: '-=10' }, '-=0.7')
       .from('#clearance', 0.2, { opacity: 0, x: '-=10' }, '-=0.7')
@@ -550,9 +586,32 @@ export default {
       .from('#clearance-2', 0.2, { opacity: 0, x: '-=10' }, '-=1')
       .from('#June_25_2018', 0.2, { x: '-=10' }, '-=0.7')
       .from('#party-4', 0.2, { opacity: 0, scaleX: 0 }, '-=0.2')
-      .from('#status-4', 0.3, { scale: 0, transformOrigin: '50% 50%' })
+      .from('#status-5', 0.3, { scale: 0, transformOrigin: '50% 50%' })
       .from('#Not_Reconciled-2', 0.7, { opacity: 0 }, '-=0.2')
       .fromTo('#Rectangle_136', 0.2, { opacity: 0 }, { opacity: 1 })
+      .to('#Window', 0.5, { opacity: 1 })
+      .from('#Make_Payment', 0.2, { opacity: 0 }, '-=0.3')
+      .from(
+        '#Rectangle_141, #Rectangle_142,#Rectangle_143, #Rectangle_139',
+        0.3,
+        { opacity: 0, scaleX: 0 },
+        '-=0.3'
+      )
+      .from(
+        '#Rectangle_144-2, #Rectangle_145-2, Cancel, Done',
+        0.3,
+        { opacity: 0 },
+        '-=0.3'
+      )
+      .fromTo('#Rectangle_146-2', 0.3, { opacity: 0 }, { opacity: 1 }, '+=1')
+      .to('#Window, #Rectangle_136', 0.3, { opacity: 0 })
+      .to('#Not_Reconciled-2, #clearance-2', 0.3, { opacity: 0 })
+      .to('#status-5', 0.3, { scale: 0, transformOrigin: '50% 50%' }, '-=0.3')
+      .from('#status-4', 0.3, { scale: 0, transformOrigin: '50% 50%' })
+      .to('#status-4', 0.3, { opacity: 1 }, '-=0.3')
+      .to('#June_27_2018', 0.2, { opacity: 1 }, '-=0.3')
+      .to('#Reconciled-2', 0.2, { opacity: 1 }, '-=0.3')
+      .to('#BankReconcile', 1, { opacity: 0, delay: 2 })
 
     this.$ksvuescr.$emit('addScene', 'scene3', scene)
   },

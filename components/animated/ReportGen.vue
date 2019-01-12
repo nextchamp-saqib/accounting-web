@@ -1,0 +1,637 @@
+<template>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="921"
+    height="575"
+    viewBox="0 0 921 575"
+  >
+    <defs>
+      <filter
+        id="Rectangle_159"
+        x="101"
+        y="0"
+        width="720"
+        height="575"
+        filterUnits="userSpaceOnUse"
+      >
+        <feOffset dy="3" input="SourceAlpha"></feOffset>
+        <feGaussianBlur stdDeviation="6" result="blur"></feGaussianBlur>
+        <feFlood flood-opacity="0.161"></feFlood>
+        <feComposite operator="in" in2="blur"></feComposite>
+        <feComposite in="SourceGraphic"></feComposite>
+      </filter>
+      <filter
+        id="Rectangle_160"
+        x="159.979"
+        y="22"
+        width="602.02"
+        height="444.132"
+        filterUnits="userSpaceOnUse"
+      >
+        <feOffset dy="3" input="SourceAlpha"></feOffset>
+        <feGaussianBlur stdDeviation="6" result="blur-2"></feGaussianBlur>
+        <feFlood flood-opacity="0.161"></feFlood>
+        <feComposite operator="in" in2="blur-2"></feComposite>
+        <feComposite in="SourceGraphic"></feComposite>
+      </filter>
+      <filter
+        id="Rectangle_169"
+        x="417.216"
+        y="337.755"
+        width="135.13"
+        height="50.436"
+        filterUnits="userSpaceOnUse"
+      >
+        <feOffset dy="3" input="SourceAlpha"></feOffset>
+        <feGaussianBlur stdDeviation="3" result="blur-3"></feGaussianBlur>
+        <feFlood flood-opacity="0.161"></feFlood>
+        <feComposite operator="in" in2="blur-3"></feComposite>
+        <feComposite in="SourceGraphic"></feComposite>
+      </filter>
+      <filter
+        id="Rectangle_170"
+        x="543.356"
+        y="337.755"
+        width="135.13"
+        height="50.436"
+        filterUnits="userSpaceOnUse"
+      >
+        <feOffset dy="3" input="SourceAlpha"></feOffset>
+        <feGaussianBlur stdDeviation="3" result="blur-4"></feGaussianBlur>
+        <feFlood flood-opacity="0.161"></feFlood>
+        <feComposite operator="in" in2="blur-4"></feComposite>
+        <feComposite in="SourceGraphic"></feComposite>
+      </filter>
+      <filter
+        id="Rectangle_171"
+        x="543.356"
+        y="337.755"
+        width="135.13"
+        height="50.436"
+        filterUnits="userSpaceOnUse"
+      >
+        <feOffset dy="3" input="SourceAlpha"></feOffset>
+        <feGaussianBlur stdDeviation="3" result="blur-5"></feGaussianBlur>
+        <feFlood flood-opacity="0.161"></feFlood>
+        <feComposite operator="in" in2="blur-5"></feComposite>
+        <feComposite in="SourceGraphic"></feComposite>
+      </filter>
+    </defs>
+    <g id="ReportGen" transform="translate(-2912 -608)">
+      <g
+        id="Rectangle_132"
+        data-name="Rectangle 132"
+        transform="translate(2912 623)"
+        fill="#fff"
+        stroke="#707070"
+        stroke-width="1"
+        opacity="0"
+      >
+        <rect width="921" height="539" stroke="none"></rect>
+        <rect x="0.5" y="0.5" width="920" height="538" fill="none"></rect>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 2912, 608)" filter="url(#Rectangle_159)">
+        <rect
+          id="Rectangle_159-2"
+          data-name="Rectangle 159"
+          width="684"
+          height="539"
+          transform="translate(119 15)"
+          fill="#fff"
+        ></rect>
+      </g>
+      <g id="reports" transform="translate(-5229.958 -2635.701)">
+        <g id="tileOne" transform="translate(8362.007 3280.926)">
+          <g
+            id="Rectangle_150"
+            data-name="Rectangle 150"
+            transform="translate(0)"
+            fill="#fff"
+            stroke="#ccc"
+            stroke-width="2.64"
+          >
+            <rect width="481.99" height="146.812" rx="8" stroke="none"></rect>
+            <rect x="1.32" y="1.32" width="479.35" height="144.173" rx="6.68" fill="none"></rect>
+          </g>
+          <g
+            id="Clicked"
+            transform="translate(0)"
+            fill="#f4f4f4"
+            stroke="#ccc"
+            stroke-width="2.64"
+            opacity="0"
+          >
+            <rect width="481.99" height="146.812" rx="15.837" stroke="none"></rect>
+            <rect x="1.32" y="1.32" width="479.35" height="144.173" rx="14.517" fill="none"></rect>
+          </g>
+          <rect
+            id="Rectangle_155"
+            data-name="Rectangle 155"
+            width="308.474"
+            height="16.312"
+            rx="8.156"
+            transform="translate(21.548 74.148)"
+            fill="#e2e2e2"
+          ></rect>
+          <rect
+            id="Rectangle_156"
+            data-name="Rectangle 156"
+            width="392.396"
+            height="16.312"
+            rx="8.156"
+            transform="translate(21.548 105.289)"
+            fill="#e2e2e2"
+          ></rect>
+          <text
+            id="Accounting_Ledger"
+            data-name="Accounting Ledger"
+            transform="translate(22.682 42.8)"
+            fill="#4e4e4e"
+            font-size="22"
+            font-family="Catamaran-Bold, Catamaran"
+            font-weight="700"
+          >
+            <tspan x="0" y="0">Accounting Ledger</tspan>
+          </text>
+        </g>
+        <g id="tileTwo" transform="translate(8362.007 3454.238)">
+          <g
+            id="Rectangle_150-2"
+            data-name="Rectangle 150"
+            transform="translate(0 2.688)"
+            fill="#fff"
+            stroke="#ccc"
+            stroke-width="2.64"
+          >
+            <rect width="481.99" height="146.812" rx="8" stroke="none"></rect>
+            <rect x="1.32" y="1.32" width="479.35" height="144.173" rx="6.68" fill="none"></rect>
+          </g>
+          <rect
+            id="Rectangle_155-2"
+            data-name="Rectangle 155"
+            width="357.24"
+            height="16.312"
+            rx="8.156"
+            transform="translate(21.548 74.148)"
+            fill="#e2e2e2"
+          ></rect>
+          <rect
+            id="Rectangle_156-2"
+            data-name="Rectangle 156"
+            width="247.232"
+            height="16.312"
+            rx="8.156"
+            transform="translate(21.548 105.289)"
+            fill="#e2e2e2"
+          ></rect>
+          <text
+            id="Profit_And_Loss"
+            data-name="Profit And Loss"
+            transform="translate(22.682 42.8)"
+            fill="#4e4e4e"
+            font-size="22"
+            font-family="Catamaran-Bold, Catamaran"
+            font-weight="700"
+          >
+            <tspan x="0" y="0">Profit And Loss</tspan>
+          </text>
+        </g>
+        <g id="tileFour" transform="translate(8362.007 3627.639)">
+          <g
+            id="Rectangle_150-3"
+            data-name="Rectangle 150"
+            transform="translate(0 0.287)"
+            fill="#fff"
+            stroke="#ccc"
+            stroke-width="2.64"
+          >
+            <rect width="481.99" height="146.812" rx="8" stroke="none"></rect>
+            <rect x="1.32" y="1.32" width="479.35" height="144.173" rx="6.68" fill="none"></rect>
+          </g>
+          <rect
+            id="Rectangle_155-3"
+            data-name="Rectangle 155"
+            width="216.612"
+            height="16.312"
+            rx="8.156"
+            transform="translate(21.548 74.148)"
+            fill="#e2e2e2"
+          ></rect>
+          <rect
+            id="Rectangle_156-3"
+            data-name="Rectangle 156"
+            width="392.396"
+            height="16.312"
+            rx="8.156"
+            transform="translate(21.548 105.289)"
+            fill="#e2e2e2"
+          ></rect>
+          <text
+            id="Trial_Balance"
+            data-name="Trial Balance"
+            transform="translate(22.682 42.8)"
+            fill="#4e4e4e"
+            font-size="22"
+            font-family="Catamaran-Bold, Catamaran"
+            font-weight="700"
+          >
+            <tspan x="0" y="0">Trial Balance</tspan>
+          </text>
+        </g>
+        <g id="tileThree" transform="translate(8362.007 3628.074)">
+          <g
+            id="Rectangle_150-4"
+            data-name="Rectangle 150"
+            transform="translate(0 -0.147)"
+            fill="#fff"
+            stroke="#ccc"
+            stroke-width="2.64"
+          >
+            <rect width="481.99" height="146.812" rx="8" stroke="none"></rect>
+            <rect x="1.32" y="1.32" width="479.35" height="144.173" rx="6.68" fill="none"></rect>
+          </g>
+          <g
+            id="Clicked-2"
+            data-name="Clicked"
+            transform="translate(0 0)"
+            fill="#f4f4f4"
+            stroke="#ccc"
+            stroke-width="2.64"
+            opacity="0"
+          >
+            <rect width="481.99" height="146.812" rx="15.837" stroke="none"></rect>
+            <rect x="1.32" y="1.32" width="479.35" height="144.173" rx="14.517" fill="none"></rect>
+          </g>
+          <rect
+            id="Rectangle_155-4"
+            data-name="Rectangle 155"
+            width="358.374"
+            height="16.312"
+            rx="8.156"
+            transform="translate(21.548 74.148)"
+            fill="#e2e2e2"
+          ></rect>
+          <rect
+            id="Rectangle_156-4"
+            data-name="Rectangle 156"
+            width="163.31"
+            height="16.312"
+            rx="8.156"
+            transform="translate(21.548 105.289)"
+            fill="#e2e2e2"
+          ></rect>
+          <text
+            id="Sales_Register"
+            data-name="Sales Register"
+            transform="translate(22.682 42.8)"
+            fill="#4e4e4e"
+            font-size="22"
+            font-family="Catamaran-Bold, Catamaran"
+            font-weight="700"
+          >
+            <tspan x="0" y="0">Sales Register</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="exportWizard" transform="translate(-85.02 -1)" opacity="0">
+        <g transform="matrix(1, 0, 0, 1, 2997.02, 609)" filter="url(#Rectangle_160)">
+          <rect
+            id="Rectangle_160-2"
+            data-name="Rectangle 160"
+            width="566.02"
+            height="408.132"
+            transform="translate(177.98 37)"
+            fill="#fff"
+          ></rect>
+        </g>
+        <text
+          id="Export_Wizard"
+          data-name="Export Wizard"
+          transform="translate(3239.483 729.288)"
+          fill="#333"
+          font-size="33"
+          font-family="Catamaran-Bold, Catamaran"
+          font-weight="700"
+        >
+          <tspan x="0" y="0">Export Wizard</tspan>
+        </text>
+        <text
+          id="General_Ledger_Report"
+          data-name="General Ledger Report"
+          transform="translate(3239.483 778.041)"
+          fill="#1f1f1f"
+          font-size="18"
+          font-family="Catamaran-Bold, Catamaran"
+          font-weight="700"
+        >
+          <tspan x="0" y="0">General Ledger Report</tspan>
+        </text>
+        <text
+          id="Sales_Register_Report"
+          data-name="Sales Register Report"
+          transform="translate(3239.483 778.041)"
+          fill="#1f1f1f"
+          font-size="18"
+          font-family="Catamaran-Bold, Catamaran"
+          font-weight="700"
+          opacity="0"
+        >
+          <tspan x="0" y="0">Sales Register Report</tspan>
+        </text>
+        <rect
+          id="Rectangle_161"
+          data-name="Rectangle 161"
+          width="270.764"
+          height="21.595"
+          rx="7"
+          transform="translate(3269.384 815.871)"
+          fill="#f2f2f2"
+        ></rect>
+        <rect
+          id="Rectangle_162"
+          data-name="Rectangle 162"
+          width="21.595"
+          height="21.595"
+          rx="7"
+          transform="translate(3239.483 815.871)"
+          fill="#f2f2f2"
+        ></rect>
+        <path
+          id="Path_12"
+          data-name="Path 12"
+          d="M3222.573,754.283l6.277,4.621,11.274-13.11"
+          transform="translate(21.185 71.489)"
+          fill="none"
+          stroke="#707070"
+          stroke-width="1"
+        ></path>
+        <rect
+          id="Rectangle_163"
+          data-name="Rectangle 163"
+          width="181.063"
+          height="21.595"
+          rx="7"
+          transform="translate(3269.384 847.119)"
+          fill="#f2f2f2"
+        ></rect>
+        <rect
+          id="Rectangle_164"
+          data-name="Rectangle 164"
+          width="21.595"
+          height="21.595"
+          rx="7"
+          transform="translate(3239.483 847.119)"
+          fill="#f2f2f2"
+        ></rect>
+        <path
+          id="Path_13"
+          data-name="Path 13"
+          d="M3222.573,754.283l6.277,4.621,11.274-13.11"
+          transform="translate(21.185 102.771)"
+          fill="none"
+          stroke="#707070"
+          stroke-width="1"
+        ></path>
+        <rect
+          id="Rectangle_165"
+          data-name="Rectangle 165"
+          width="129.568"
+          height="21.595"
+          rx="7"
+          transform="translate(3269.384 878.366)"
+          fill="#f2f2f2"
+        ></rect>
+        <rect
+          id="Rectangle_166"
+          data-name="Rectangle 166"
+          width="21.595"
+          height="21.595"
+          rx="7"
+          transform="translate(3239.483 878.366)"
+          fill="#f2f2f2"
+        ></rect>
+        <path
+          id="Path_14"
+          data-name="Path 14"
+          d="M3222.573,754.283l6.277,4.621,11.274-13.11"
+          transform="translate(21.185 134.052)"
+          fill="none"
+          stroke="#707070"
+          stroke-width="1"
+        ></path>
+        <rect
+          id="Rectangle_167"
+          data-name="Rectangle 167"
+          width="210.963"
+          height="21.595"
+          rx="7"
+          transform="translate(3269.384 909.613)"
+          fill="#f2f2f2"
+        ></rect>
+        <rect
+          id="Rectangle_168"
+          data-name="Rectangle 168"
+          width="21.595"
+          height="21.595"
+          rx="7"
+          transform="translate(3239.483 909.613)"
+          fill="#f2f2f2"
+        ></rect>
+        <path
+          id="Path_15"
+          data-name="Path 15"
+          d="M3222.573,754.283l6.277,4.621,11.274-13.11"
+          transform="translate(21.185 165.334)"
+          fill="none"
+          stroke="#707070"
+          stroke-width="1"
+        ></path>
+        <g transform="matrix(1, 0, 0, 1, 2997.02, 609)" filter="url(#Rectangle_169)">
+          <rect
+            id="Rectangle_169-2"
+            data-name="Rectangle 169"
+            width="117.131"
+            height="32.436"
+            rx="9"
+            transform="translate(426.22 343.76)"
+            fill="#f2f2f2"
+          ></rect>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 2997.02, 609)" filter="url(#Rectangle_170)">
+          <rect
+            id="Rectangle_170-2"
+            data-name="Rectangle 170"
+            width="117.131"
+            height="32.436"
+            rx="9"
+            transform="translate(552.36 343.76)"
+            fill="#007bff"
+          ></rect>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 2997.02, 609)" filter="url(#Rectangle_171)">
+          <rect
+            id="Rectangle_171-2"
+            data-name="Rectangle 171"
+            width="117.131"
+            height="32.436"
+            rx="9"
+            transform="translate(552.36 343.76)"
+            fill="#0063cc"
+            opacity="0"
+          ></rect>
+        </g>
+        <text
+          id="Cancel"
+          transform="translate(3452.823 973.678)"
+          fill="#333"
+          font-size="17"
+          font-family="Catamaran-Bold, Catamaran"
+          font-weight="700"
+        >
+          <tspan x="0" y="0">Cancel</tspan>
+        </text>
+        <text
+          id="Export"
+          transform="translate(3579.389 973.778)"
+          fill="#fff"
+          font-size="17"
+          font-family="Catamaran-Bold, Catamaran"
+          font-weight="700"
+        >
+          <tspan x="0" y="0">Export</tspan>
+        </text>
+        <text
+          id="Exported_Successfully"
+          data-name="Exported Successfully"
+          transform="translate(3267.483 1026.041)"
+          fill="#1f1f1f"
+          font-size="18"
+          font-family="Catamaran-Bold, Catamaran"
+          font-weight="700"
+          opacity="0"
+        >
+          <tspan x="0" y="0">Exported Successfully</tspan>
+        </text>
+        <rect
+          id="Rectangle_172"
+          data-name="Rectangle 172"
+          width="21.595"
+          height="21.595"
+          rx="10.797"
+          transform="translate(3239.483 1009.613)"
+          fill="#61bc51"
+          opacity="0"
+        ></rect>
+      </g>
+    </g>
+  </svg>
+</template>
+
+<script>
+export default {
+  name: 'ReportGen',
+  mounted() {
+    let scene = new this.$scrollmagic.Scene({
+      triggerElement: '#BankReconcile'
+    })
+    let timeline = new this.$gsap.TimelineMax({
+      paused: false,
+      defaultEase: Circ.easeOut,
+      onComplete: () => this.$emit('completed', 2)
+    })
+    timeline
+      .from('#ReportGen', 0.7, { opacity: 0 })
+      .from('#tileOne, #tileTwo, #tileThree, #tileFour', 0.7, {
+        opacity: 0,
+        x: '-=15'
+      })
+      .to('#Clicked', 0.3, { opacity: 1 })
+      .to('#Clicked', 0.3, { opacity: 0 })
+      .fromTo('#reports', 0.3, { opacity: 1 }, { opacity: 0 })
+      .to('#exportWizard', 0.3, { opacity: 1 }, '-=0.3')
+      .fromTo(
+        '#Export_Wizard, #General_Ledger_Report, #Rectangle_169, #Rectangle_170, #Export, #Cancel',
+        0.3,
+        { opacity: 0 },
+        { opacity: 1 }
+      )
+      .fromTo(
+        '#Rectangle_162, #Path_12, #Rectangle_164, #Path_13, #Rectangle_166, #Path_14, #Rectangle_168, #Path_15',
+        0.4,
+        { scale: 0, transformOrigin: '50% 50%' },
+        { scale: 1, transformOrigin: '50% 50%' },
+        '-=0.3'
+      )
+      .fromTo(
+        '#Rectangle_161, #Rectangle_163, #Rectangle_165, #Rectangle_167',
+        0.4,
+        { scaleX: 0 },
+        { scaleX: 1 },
+        '-=0.3'
+      )
+      .fromTo('#Rectangle_171-2', 0.3, { opacity: 0 }, { opacity: 1 })
+      .to('#Rectangle_171-2', 0.3, { opacity: 0 })
+      .fromTo(
+        '#Rectangle_172',
+        0.3,
+        {
+          scale: 0,
+          transformOrigin: '50% 50%'
+        },
+        { opacity: 1, scale: 1 }
+      )
+      .to('#Exported_Successfully', 0.4, { opacity: 1 }, '-=0.3')
+      .fromTo('#exportWizard', 0.3, { opacity: 1 }, { opacity: 0 })
+      .fromTo('#reports', 0.3, { opacity: 0 }, { opacity: 1 }, '-=0.3')
+      .to('#tileOne', 0.3, { y: '-=170', opacity: 0 })
+      .to('#tileTwo, #tileThree', 0.3, { y: '-=170' }, '-=0.3')
+      .from('#tileFour', 0.3, { y: '+=170' }, '-=0.3')
+      .to('#Clicked-2', 0.3, { opacity: 1 })
+      .to('#Clicked-2', 0.3, { opacity: 0 })
+      .to('#exportWizard', 0.3, { opacity: 1 })
+      .from(
+        '#Export_Wizard, #General_Ledger_Report, #Rectangle_169, #Rectangle_170, #Export, #Cancel',
+        0.3,
+        { opacity: 0 },
+        { opacity: 1 }
+      )
+      .fromTo(
+        '#Rectangle_162, #Path_12, #Rectangle_164, #Path_13, #Rectangle_166, #Path_14, #Rectangle_168, #Path_15',
+        0.4,
+        { scale: 0, transformOrigin: '50% 50%' },
+        { scale: 1, transformOrigin: '50% 50%' },
+        '-=0.3'
+      )
+      .fromTo(
+        '#Rectangle_161, #Rectangle_163, #Rectangle_165, #Rectangle_167',
+        0.4,
+        { scaleX: 0 },
+        { scaleX: 1 },
+        '-=0.3'
+      )
+      .fromTo('#Rectangle_171-2', 0.3, { opacity: 0 }, { opacity: 1 })
+      .to('#Rectangle_171-2', 0.3, { opacity: 0 })
+      .fromTo(
+        '#Rectangle_172-2',
+        0.3,
+        {
+          scale: 0,
+          transformOrigin: '50% 50%'
+        },
+        { opacity: 1, scale: 1 }
+      )
+      .to('#Exported_Successfully', 0.4, { opacity: 1 }, '-=0.3')
+      .to('#exportWizard', 0.3, { opacity: 0 })
+      .to('#ReportGen', 0.7, { delay: 1, opacity: 0 })
+
+    this.$ksvuescr.$emit('addScene', 'scene3', scene)
+  },
+  destroyed() {
+    this.$ksvuescr.$emit('destroyScene', 'scene3')
+  }
+}
+</script>
+
+<style scoped>
+</style>

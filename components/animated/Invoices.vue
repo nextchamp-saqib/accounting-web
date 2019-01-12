@@ -2041,33 +2041,33 @@ export default {
       onComplete: () => this.$emit('completed', 3)
     })
     timeline1
-      .from('#Invoice1', 1, { x: '+=398', opacity: '0' })
+      .from('#Invoice1', 0.5, { x: '+=398', opacity: '0' })
       .to(
         '#Invoice1',
         1,
         { scale: 1.06, transformOrigin: '50% 50%', opacity: 1 },
-        '-=1'
+        '-=0.5'
       )
-      .to('#Invoice1', 1, { x: '-=198', opacity: 0, delay: 1.5 })
-      .to('#Invoice1', 1, { scale: 1, transformOrigin: '50% 50%' }, '-=1')
-      .from('#Invoice2', 1, { x: '+=398', opacity: '0' }, '-=0.5')
+      .to('#Invoice1', 0.5, { x: '-=198', opacity: 0, delay: 1.5 })
+      .to('#Invoice1', 0.5, { scale: 1, transformOrigin: '50% 50%' }, '-=0.5')
+      .from('#Invoice2', 0.5, { x: '+=398', opacity: '0' }, '-=0.5')
       .to(
         '#Invoice2',
         1,
         { scale: 1.06, transformOrigin: '50% 50%', opacity: 1 },
-        '-=1'
+        '-=0.5'
       )
-      .to('#Invoice2', 1, { x: '-=198', opacity: 0, delay: 1.5 })
-      .to('#Invoice2', 1, { scale: 1, transformOrigin: '50% 50%' }, '-=1')
-      .from('#Invoice3', 1, { x: '+=398', opacity: '0' }, '-=0.5')
+      .to('#Invoice2', 0.5, { x: '-=198', opacity: 0, delay: 1.5 })
+      .to('#Invoice2', 0.5, { scale: 1, transformOrigin: '50% 50%' }, '-=0.5')
+      .from('#Invoice3', 0.5, { x: '+=398', opacity: '0' }, '-=0.5')
       .to(
         '#Invoice3',
         1,
         { scale: 1.06, transformOrigin: '50% 50%', opacity: 1 },
-        '-=1'
+        '-=0.5'
       )
-      .to('#Invoice3', 1, { x: '-=198', opacity: 0, delay: 1.5 })
-      .to('#Invoice3', 1, { scale: 1, transformOrigin: '50% 50%' }, '-=1')
+      .to('#Invoice3', 0.5, { x: '-=198', opacity: 0, delay: 1.5 })
+      .to('#Invoice3', 0.5, { scale: 1, transformOrigin: '50% 50%' }, '-=0.5')
 
     scene.setTween(timeline1)
     this.$ksvuescr.$emit('addScene', 'scene1', scene)

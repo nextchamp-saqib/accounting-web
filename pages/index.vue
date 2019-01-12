@@ -16,14 +16,12 @@
 import LandingScreen from '~/components/HomePage/LandingScreen'
 import FeaturesScreen from '~/components/HomePage/FeaturesScreen'
 import TransitionScreen from '~/components/HomePage/TransitionScreen'
-import Footer from '~/components/Footer'
 
 export default {
   components: {
     LandingScreen,
     FeaturesScreen,
-    TransitionScreen,
-    Footer
+    TransitionScreen
   }
 }
 </script>
@@ -35,9 +33,5 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-.main-footer {
-  min-width: 100vw;
-  background-color: rgba(0, 0, 0, 0.7);
 }
 </style>

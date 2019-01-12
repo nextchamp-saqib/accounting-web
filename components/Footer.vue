@@ -12,4 +12,5 @@ export default {
 .container
   min-height: 100vh
   background-color: rgba(0,0,0,0.6)
+  min-width: 100vw
 </style>

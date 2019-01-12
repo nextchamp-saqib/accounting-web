@@ -3,8 +3,8 @@
     <img src="background.png">
     <div class="title">
       <h1 class="bold">Frappe Accounting</h1>
-      <p>Manage your business with free
-        <br> and handy accounting app
+      <p>Free and Modern Accounting App for everyone
+        <br>Manage your business with a handy accounting app
       </p>
       <button class="btn btn-default">Download Now!</button>
     </div>
