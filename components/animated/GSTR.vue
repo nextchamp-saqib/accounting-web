@@ -1,0 +1,1064 @@
+<template>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="957"
+    height="539"
+    viewBox="0 0 957 539"
+  >
+    <defs>
+      <filter
+        id="Rectangle_146"
+        x="0"
+        y="42.775"
+        width="957"
+        height="428.574"
+        filterUnits="userSpaceOnUse"
+      >
+        <feOffset dy="3" input="SourceAlpha"></feOffset>
+        <feGaussianBlur stdDeviation="6" result="blur"></feGaussianBlur>
+        <feFlood flood-opacity="0.161"></feFlood>
+        <feComposite operator="in" in2="blur"></feComposite>
+        <feComposite in="SourceGraphic"></feComposite>
+      </filter>
+      <filter
+        id="Rectangle_151"
+        x="256.807"
+        y="31.703"
+        width="441.193"
+        height="449.297"
+        filterUnits="userSpaceOnUse"
+      >
+        <feOffset dy="3" input="SourceAlpha"></feOffset>
+        <feGaussianBlur stdDeviation="6" result="blur-2"></feGaussianBlur>
+        <feFlood flood-opacity="0.161"></feFlood>
+        <feComposite operator="in" in2="blur-2"></feComposite>
+        <feComposite in="SourceGraphic"></feComposite>
+      </filter>
+      <filter
+        id="Rectangle_156"
+        x="310"
+        y="317"
+        width="134"
+        height="54"
+        filterUnits="userSpaceOnUse"
+      >
+        <feOffset dy="3" input="SourceAlpha"></feOffset>
+        <feGaussianBlur stdDeviation="3" result="blur-3"></feGaussianBlur>
+        <feFlood flood-opacity="0.161"></feFlood>
+        <feComposite operator="in" in2="blur-3"></feComposite>
+        <feComposite in="SourceGraphic"></feComposite>
+      </filter>
+      <filter
+        id="Rectangle_157"
+        x="440"
+        y="317"
+        width="134"
+        height="54"
+        filterUnits="userSpaceOnUse"
+      >
+        <feOffset dy="3" input="SourceAlpha"></feOffset>
+        <feGaussianBlur stdDeviation="3" result="blur-4"></feGaussianBlur>
+        <feFlood flood-opacity="0.161"></feFlood>
+        <feComposite operator="in" in2="blur-4"></feComposite>
+        <feComposite in="SourceGraphic"></feComposite>
+      </filter>
+      <filter id="expclicked" x="440" y="317" width="134" height="54" filterUnits="userSpaceOnUse">
+        <feOffset dy="3" input="SourceAlpha"></feOffset>
+        <feGaussianBlur stdDeviation="3" result="blur-5"></feGaussianBlur>
+        <feFlood flood-opacity="0.161"></feFlood>
+        <feComposite operator="in" in2="blur-5"></feComposite>
+        <feComposite in="SourceGraphic"></feComposite>
+      </filter>
+    </defs>
+    <g id="GSTR" transform="translate(-2894 -623)">
+      <g
+        id="Rectangle_132"
+        data-name="Rectangle 132"
+        transform="translate(2912 623)"
+        fill="#fff"
+        stroke="#707070"
+        stroke-width="1"
+        opacity="0"
+      >
+        <rect width="921" height="539" stroke="none"></rect>
+        <rect x="0.5" y="0.5" width="920" height="538" fill="none"></rect>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 2894, 623)" filter="url(#Rectangle_146)">
+        <rect
+          id="Rectangle_146-2"
+          data-name="Rectangle 146"
+          width="921"
+          height="392.574"
+          transform="translate(18 57.77)"
+          fill="#fff"
+        ></rect>
+      </g>
+      <g id="Rows" transform="translate(0 5)">
+        <g id="Row" transform="translate(2938.121 809.504)">
+          <g
+            id="Rectangle_133"
+            data-name="Rectangle 133"
+            transform="translate(0 49.515)"
+            fill="#acacac"
+            stroke="#acacac"
+            stroke-width="1"
+          >
+            <rect width="867.422" height="3.489" stroke="none"></rect>
+            <rect x="0.5" y="0.5" width="866.422" height="2.489" fill="none"></rect>
+          </g>
+          <rect
+            id="column"
+            width="111.636"
+            height="18.606"
+            rx="8"
+            transform="translate(99.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-2"
+            data-name="column"
+            width="74.636"
+            height="18.606"
+            rx="8"
+            transform="translate(-0.52 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-3"
+            data-name="column"
+            width="69.636"
+            height="18.606"
+            rx="8"
+            transform="translate(239.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-4"
+            data-name="column"
+            width="111.636"
+            height="18.606"
+            rx="8"
+            transform="translate(355.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-5"
+            data-name="column"
+            width="65.636"
+            height="18.606"
+            rx="8"
+            transform="translate(547.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-6"
+            data-name="column"
+            width="38.636"
+            height="18.606"
+            rx="8"
+            transform="translate(637.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-7"
+            data-name="column"
+            width="62.636"
+            height="18.606"
+            rx="8"
+            transform="translate(764.48 11.04)"
+            fill="#ddd"
+          ></rect>
+        </g>
+        <g id="Row-2" data-name="Row" transform="translate(2938.121 869.504)">
+          <g
+            id="Rectangle_133-2"
+            data-name="Rectangle 133"
+            transform="translate(0 49.515)"
+            fill="#acacac"
+            stroke="#acacac"
+            stroke-width="1"
+          >
+            <rect width="867.422" height="3.489" stroke="none"></rect>
+            <rect x="0.5" y="0.5" width="866.422" height="2.489" fill="none"></rect>
+          </g>
+          <rect
+            id="column-8"
+            data-name="column"
+            width="88.636"
+            height="18.606"
+            rx="8"
+            transform="translate(99.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-9"
+            data-name="column"
+            width="63.636"
+            height="18.606"
+            rx="8"
+            transform="translate(-0.52 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-10"
+            data-name="column"
+            width="57.636"
+            height="18.606"
+            rx="8"
+            transform="translate(239.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-11"
+            data-name="column"
+            width="73.636"
+            height="18.606"
+            rx="8"
+            transform="translate(355.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-12"
+            data-name="column"
+            width="63.636"
+            height="18.606"
+            rx="8"
+            transform="translate(547.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-13"
+            data-name="column"
+            width="51.636"
+            height="18.606"
+            rx="8"
+            transform="translate(637.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-14"
+            data-name="column"
+            width="50.636"
+            height="18.606"
+            rx="8"
+            transform="translate(764.48 11.04)"
+            fill="#ddd"
+          ></rect>
+        </g>
+        <g id="Row-3" data-name="Row" transform="translate(2938.121 929.504)">
+          <g
+            id="Rectangle_133-3"
+            data-name="Rectangle 133"
+            transform="translate(0 49.515)"
+            fill="#acacac"
+            stroke="#acacac"
+            stroke-width="1"
+          >
+            <rect width="867.422" height="3.489" stroke="none"></rect>
+            <rect x="0.5" y="0.5" width="866.422" height="2.489" fill="none"></rect>
+          </g>
+          <rect
+            id="column-15"
+            data-name="column"
+            width="111.636"
+            height="18.606"
+            rx="8"
+            transform="translate(99.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-16"
+            data-name="column"
+            width="74.636"
+            height="18.606"
+            rx="8"
+            transform="translate(-0.52 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-17"
+            data-name="column"
+            width="69.636"
+            height="18.606"
+            rx="8"
+            transform="translate(239.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-18"
+            data-name="column"
+            width="111.636"
+            height="18.606"
+            rx="8"
+            transform="translate(355.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-19"
+            data-name="column"
+            width="65.636"
+            height="18.606"
+            rx="8"
+            transform="translate(547.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-20"
+            data-name="column"
+            width="38.636"
+            height="18.606"
+            rx="8"
+            transform="translate(637.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-21"
+            data-name="column"
+            width="60.636"
+            height="18.606"
+            rx="8"
+            transform="translate(764.48 11.04)"
+            fill="#ddd"
+          ></rect>
+        </g>
+        <g id="Row-4" data-name="Row" transform="translate(2938.121 989.504)">
+          <g
+            id="Rectangle_133-4"
+            data-name="Rectangle 133"
+            transform="translate(0 49.515)"
+            fill="#acacac"
+            stroke="#acacac"
+            stroke-width="1"
+          >
+            <rect width="867.422" height="3.489" stroke="none"></rect>
+            <rect x="0.5" y="0.5" width="866.422" height="2.489" fill="none"></rect>
+          </g>
+          <rect
+            id="column-22"
+            data-name="column"
+            width="111.636"
+            height="18.606"
+            rx="8"
+            transform="translate(99.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-23"
+            data-name="column"
+            width="66.636"
+            height="18.606"
+            rx="8"
+            transform="translate(-0.52 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-24"
+            data-name="column"
+            width="60.636"
+            height="18.606"
+            rx="8"
+            transform="translate(239.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-25"
+            data-name="column"
+            width="130.636"
+            height="18.606"
+            rx="8"
+            transform="translate(355.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-26"
+            data-name="column"
+            width="63.636"
+            height="18.606"
+            rx="8"
+            transform="translate(547.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-27"
+            data-name="column"
+            width="63.636"
+            height="18.606"
+            rx="8"
+            transform="translate(637.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-28"
+            data-name="column"
+            width="74.636"
+            height="18.606"
+            rx="8"
+            transform="translate(764.48 11.04)"
+            fill="#ddd"
+          ></rect>
+        </g>
+        <g id="Row-5" data-name="Row" transform="translate(2938.121 1049.504)" opacity="0">
+          <g
+            id="Rectangle_133-5"
+            data-name="Rectangle 133"
+            transform="translate(0 49.515)"
+            fill="#acacac"
+            stroke="#acacac"
+            stroke-width="1"
+          >
+            <rect width="867.422" height="3.489" stroke="none"></rect>
+            <rect x="0.5" y="0.5" width="866.422" height="2.489" fill="none"></rect>
+          </g>
+          <rect
+            id="column-29"
+            data-name="column"
+            width="111.636"
+            height="18.606"
+            rx="8"
+            transform="translate(99.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-30"
+            data-name="column"
+            width="74.636"
+            height="18.606"
+            rx="8"
+            transform="translate(-0.52 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-31"
+            data-name="column"
+            width="69.636"
+            height="18.606"
+            rx="8"
+            transform="translate(239.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-32"
+            data-name="column"
+            width="111.636"
+            height="18.606"
+            rx="8"
+            transform="translate(355.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-33"
+            data-name="column"
+            width="65.636"
+            height="18.606"
+            rx="8"
+            transform="translate(547.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-34"
+            data-name="column"
+            width="51.636"
+            height="18.606"
+            rx="8"
+            transform="translate(637.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-35"
+            data-name="column"
+            width="55.636"
+            height="18.606"
+            rx="8"
+            transform="translate(764.48 11.04)"
+            fill="#ddd"
+          ></rect>
+        </g>
+        <g id="Row-6" data-name="Row" transform="translate(2938.121 1049.504)" opacity="0">
+          <g
+            id="Rectangle_133-6"
+            data-name="Rectangle 133"
+            transform="translate(0 49.515)"
+            fill="#acacac"
+            stroke="#acacac"
+            stroke-width="1"
+          >
+            <rect width="867.422" height="3.489" stroke="none"></rect>
+            <rect x="0.5" y="0.5" width="866.422" height="2.489" fill="none"></rect>
+          </g>
+          <rect
+            id="column-36"
+            data-name="column"
+            width="111.636"
+            height="18.606"
+            rx="8"
+            transform="translate(99.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-37"
+            data-name="column"
+            width="74.636"
+            height="18.606"
+            rx="8"
+            transform="translate(-0.52 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-38"
+            data-name="column"
+            width="69.636"
+            height="18.606"
+            rx="8"
+            transform="translate(239.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-39"
+            data-name="column"
+            width="111.636"
+            height="18.606"
+            rx="8"
+            transform="translate(355.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-40"
+            data-name="column"
+            width="65.636"
+            height="18.606"
+            rx="8"
+            transform="translate(547.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-41"
+            data-name="column"
+            width="51.636"
+            height="18.606"
+            rx="8"
+            transform="translate(637.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-42"
+            data-name="column"
+            width="55.636"
+            height="18.606"
+            rx="8"
+            transform="translate(764.48 11.04)"
+            fill="#ddd"
+          ></rect>
+        </g>
+        <g id="Row-7" data-name="Row" transform="translate(2938.121 1049.504)" opacity="0">
+          <g
+            id="Rectangle_133-7"
+            data-name="Rectangle 133"
+            transform="translate(0 49.515)"
+            fill="#acacac"
+            stroke="#acacac"
+            stroke-width="1"
+          >
+            <rect width="867.422" height="3.489" stroke="none"></rect>
+            <rect x="0.5" y="0.5" width="866.422" height="2.489" fill="none"></rect>
+          </g>
+          <rect
+            id="column-43"
+            data-name="column"
+            width="111.636"
+            height="18.606"
+            rx="8"
+            transform="translate(99.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-44"
+            data-name="column"
+            width="74.636"
+            height="18.606"
+            rx="8"
+            transform="translate(-0.52 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-45"
+            data-name="column"
+            width="69.636"
+            height="18.606"
+            rx="8"
+            transform="translate(239.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-46"
+            data-name="column"
+            width="111.636"
+            height="18.606"
+            rx="8"
+            transform="translate(355.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-47"
+            data-name="column"
+            width="65.636"
+            height="18.606"
+            rx="8"
+            transform="translate(547.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-48"
+            data-name="column"
+            width="51.636"
+            height="18.606"
+            rx="8"
+            transform="translate(637.48 11.04)"
+            fill="#ddd"
+          ></rect>
+          <rect
+            id="column-49"
+            data-name="column"
+            width="55.636"
+            height="18.606"
+            rx="8"
+            transform="translate(764.48 11.04)"
+            fill="#ddd"
+          ></rect>
+        </g>
+      </g>
+      <g id="Head" transform="translate(2938.677 751.661)">
+        <rect
+          id="Rectangle_147"
+          data-name="Rectangle 147"
+          width="868.634"
+          height="57.489"
+          transform="translate(0 -7.485)"
+          fill="#fff"
+        ></rect>
+        <g
+          id="Rectangle_133-8"
+          data-name="Rectangle 133"
+          transform="translate(0 46.515)"
+          fill="#acacac"
+          stroke="#acacac"
+          stroke-width="1"
+        >
+          <rect width="868.634" height="3.489" stroke="none"></rect>
+          <rect x="0.5" y="0.5" width="867.634" height="2.489" fill="none"></rect>
+        </g>
+        <text
+          id="GSTIN"
+          transform="translate(-0.557 22)"
+          fill="#1d1d1d"
+          font-size="26"
+          font-family="Catamaran-Bold, Catamaran"
+          font-weight="700"
+        >
+          <tspan x="0" y="0">GSTIN</tspan>
+        </text>
+        <text
+          id="Customer"
+          transform="translate(101.415 22)"
+          fill="#1d1d1d"
+          font-size="26"
+          font-family="Catamaran-Bold, Catamaran"
+          font-weight="700"
+        >
+          <tspan x="0" y="0">Customer</tspan>
+        </text>
+        <text
+          id="Invoice"
+          transform="translate(240.322 22)"
+          fill="#1d1d1d"
+          font-size="26"
+          font-family="Catamaran-Bold, Catamaran"
+          font-weight="700"
+        >
+          <tspan x="0" y="0">Invoice</tspan>
+        </text>
+        <text
+          id="Invoice_Value"
+          data-name="Invoice Value"
+          transform="translate(356.132 22)"
+          fill="#1d1d1d"
+          font-size="26"
+          font-family="Catamaran-Bold, Catamaran"
+          font-weight="700"
+        >
+          <tspan x="0" y="0">Invoice Value</tspan>
+        </text>
+        <text
+          id="Place"
+          transform="translate(548.111 22)"
+          fill="#1d1d1d"
+          font-size="26"
+          font-family="Catamaran-Bold, Catamaran"
+          font-weight="700"
+        >
+          <tspan x="0" y="0">Place</tspan>
+        </text>
+        <text
+          id="Tax_Rate"
+          data-name="Tax Rate"
+          transform="translate(640.111 22)"
+          fill="#1d1d1d"
+          font-size="26"
+          font-family="Catamaran-Bold, Catamaran"
+          font-weight="700"
+        >
+          <tspan x="0" y="0">Tax Rate</tspan>
+        </text>
+        <text
+          id="Amount"
+          transform="translate(764.111 22)"
+          fill="#1d1d1d"
+          font-size="26"
+          font-family="Catamaran-Bold, Catamaran"
+          font-weight="700"
+        >
+          <tspan x="0" y="0">Amount</tspan>
+        </text>
+      </g>
+      <g id="Search" transform="translate(0 1)">
+        <rect
+          id="Rectangle_149"
+          data-name="Rectangle 149"
+          width="150.44"
+          height="33.744"
+          rx="9"
+          transform="translate(3061.886 697.017)"
+          fill="#ebebeb"
+        ></rect>
+        <text
+          id="Select_Type:"
+          data-name="Select Type:"
+          transform="translate(2940 718.368)"
+          fill="#333"
+          font-size="20"
+          font-family="Catamaran-Bold, Catamaran"
+          font-weight="700"
+        >
+          <tspan x="0" y="0">Select Type:</tspan>
+        </text>
+        <path
+          id="Path_11"
+          data-name="Path 11"
+          d="M3127.346,706.557l10.833-.141-4.914,9.027Z"
+          transform="translate(58.753 2.84)"
+          fill="#656565"
+        ></path>
+        <g id="exportBtn" transform="translate(-433.817 11.711)">
+          <rect
+            id="Rectangle_148"
+            data-name="Rectangle 148"
+            width="119.817"
+            height="33.647"
+            rx="7"
+            transform="translate(3661 685.821)"
+            fill="#007bff"
+          ></rect>
+          <rect
+            id="clicked"
+            width="119.817"
+            height="33.647"
+            rx="7"
+            transform="translate(3661 685.821)"
+            fill="#0063cc"
+            opacity="0"
+          ></rect>
+          <text
+            id="Export"
+            transform="translate(3689.723 708)"
+            fill="#ededed"
+            font-size="21"
+            font-family="Catamaran-Bold, Catamaran"
+            font-weight="700"
+          >
+            <tspan x="0" y="0">Export</tspan>
+          </text>
+        </g>
+        <g id="Type" transform="translate(3101.254 698.423)">
+          <text
+            id="GSTR-3b"
+            transform="translate(34 98.735)"
+            fill="#333"
+            font-size="18"
+            font-family="Catamaran-Bold, Catamaran"
+            font-weight="700"
+            opacity="0"
+          >
+            <tspan x="-33.714" y="0">GSTR-3b</tspan>
+          </text>
+          <text
+            id="GSTR-2"
+            transform="translate(34.624 59.368)"
+            fill="#333"
+            font-size="18"
+            font-family="Catamaran-Bold, Catamaran"
+            font-weight="700"
+            opacity="0"
+          >
+            <tspan x="-28.755" y="0">GSTR-2</tspan>
+          </text>
+          <text
+            id="GSTR-1"
+            transform="translate(33.624 20)"
+            fill="#333"
+            font-size="18"
+            font-family="Catamaran-Bold, Catamaran"
+            font-weight="700"
+          >
+            <tspan x="-27.684" y="0">GSTR-1</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Window" transform="translate(39.807 6.704)" opacity="0">
+        <g transform="matrix(1, 0, 0, 1, 2854.19, 616.3)" filter="url(#Rectangle_151)">
+          <rect
+            id="Rectangle_151-2"
+            data-name="Rectangle 151"
+            width="405.193"
+            height="413.296"
+            transform="translate(274.81 46.7)"
+            fill="#fff"
+          ></rect>
+        </g>
+        <text
+          id="Export_GSTR3b"
+          data-name="Export GSTR3b"
+          transform="translate(3175.822 731.922)"
+          fill="#333"
+          font-size="24"
+          font-family="Catamaran-Bold, Catamaran"
+          font-weight="700"
+          opacity="0"
+        >
+          <tspan x="0" y="0">Export GSTR3b</tspan>
+        </text>
+        <text
+          id="Export_GSTR1"
+          data-name="Export GSTR1"
+          transform="translate(3175.822 731.922)"
+          fill="#333"
+          font-size="24"
+          font-family="Catamaran-Bold, Catamaran"
+          font-weight="700"
+        >
+          <tspan x="0" y="0">Export GSTR1</tspan>
+        </text>
+        <rect
+          id="Rectangle_152"
+          data-name="Rectangle 152"
+          width="163"
+          height="25"
+          rx="8"
+          transform="translate(3173.193 803.297)"
+          fill="#f0f0f0"
+        ></rect>
+        <rect
+          id="Rectangle_153"
+          data-name="Rectangle 153"
+          width="274"
+          height="25"
+          rx="12.5"
+          transform="translate(3173.193 766.297)"
+          fill="#f0f0f0"
+        ></rect>
+        <rect
+          id="Rectangle_154"
+          data-name="Rectangle 154"
+          width="267"
+          height="25"
+          rx="8"
+          transform="translate(3173.193 881.297)"
+          fill="#f0f0f0"
+        ></rect>
+        <rect
+          id="Rectangle_155"
+          data-name="Rectangle 155"
+          width="225"
+          height="25"
+          rx="10"
+          transform="translate(3173.193 841.297)"
+          fill="#f0f0f0"
+        ></rect>
+        <g transform="matrix(1, 0, 0, 1, 2854.19, 616.3)" filter="url(#Rectangle_156)">
+          <rect
+            id="Rectangle_156-2"
+            data-name="Rectangle 156"
+            width="116"
+            height="36"
+            rx="8"
+            transform="translate(319 323)"
+            fill="#fff"
+          ></rect>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 2854.19, 616.3)" filter="url(#Rectangle_157)">
+          <rect
+            id="Rectangle_157-2"
+            data-name="Rectangle 157"
+            width="116"
+            height="36"
+            rx="8"
+            transform="translate(449 323)"
+            fill="#007bff"
+          ></rect>
+        </g>
+        <text
+          id="Cancel"
+          transform="translate(3200.193 963.297)"
+          fill="#333"
+          font-size="22"
+          font-family="Catamaran-Bold, Catamaran"
+          font-weight="700"
+        >
+          <tspan x="0" y="0">Cancel</tspan>
+        </text>
+        <g transform="matrix(1, 0, 0, 1, 2854.19, 616.3)" filter="url(#expclicked)">
+          <rect
+            id="expclicked-2"
+            data-name="expclicked"
+            width="116"
+            height="36"
+            rx="8"
+            transform="translate(449 323)"
+            fill="#0063cc"
+            opacity="0"
+          ></rect>
+        </g>
+        <text
+          id="Export-2"
+          data-name="Export"
+          transform="translate(3327.193 963.297)"
+          fill="#fff"
+          font-size="22"
+          font-family="Catamaran-Bold, Catamaran"
+          font-weight="700"
+        >
+          <tspan x="0" y="0">Export</tspan>
+        </text>
+        <rect
+          id="Indicator"
+          width="19"
+          height="19"
+          rx="9.5"
+          transform="translate(3173.193 1011.297)"
+          fill="#49bf3a"
+          opacity="0"
+        ></rect>
+        <text
+          id="Exported_Successfully"
+          data-name="Exported Successfully"
+          transform="translate(3202.193 1026.297)"
+          fill="#333"
+          font-size="18"
+          font-family="Catamaran-Bold, Catamaran"
+          font-weight="700"
+          opacity="0"
+        >
+          <tspan x="0" y="0">Exported Successfully</tspan>
+        </text>
+      </g>
+    </g>
+  </svg>
+</template>
+
+<script>
+export default {
+  name: 'GSTR',
+  mounted() {
+    let scene = new this.$scrollmagic.Scene({
+      triggerElement: '#GSTR'
+    })
+    let timeline = new this.$gsap.TimelineMax({
+      paused: false,
+      defaultEase: Circ.easeOut,
+      onComplete: () => this.$emit('completed', 1)
+    })
+    timeline
+      .from('#GSTR', 0.4, { opacity: 0 })
+      .to('#Row, #Row-2, #Row-3, #Row-4, #Row-5', 1, { y: '-=66', opacity: 1 })
+      .to('#Row-2, #Row-3, #Row-4, #Row-5, #Row-6', 1, {
+        y: '-=60',
+        opacity: 1
+      })
+      .to('#Row-3, #Row-4, #Row-5, #Row-6, #Row-7', 1, {
+        y: '-=58',
+        opacity: 1
+      })
+      .to('#clicked', 0.3, { opacity: 1 })
+      .to('#Window', 0.3, { opacity: 1 })
+      .from(
+        '#Rectangle_152, #Rectangle_153,#Rectangle_154, #Rectangle_155',
+        0.3,
+        { opacity: 0, scaleX: 0 },
+        '-=0.1'
+      )
+      .from(
+        '#Rectangle_156, #Rectangle_157, Cancel, Export',
+        0.3,
+        { opacity: 0 },
+        '-=0.3'
+      )
+      .to('#expclicked-2', 0.4, { opacity: 1, delay: 1 })
+      .fromTo(
+        '#Indicator',
+        0.3,
+        {
+          scale: 0,
+          transformOrigin: '50% 50%'
+        },
+        { opacity: 1, scale: 1 }
+      )
+      .to('#Exported_Successfully', 0.4, { opacity: 1 }, '-=0.3')
+      .to(
+        '#Window, #Indicator, #Exported_Successfully, #clicked, #expclicked-2',
+        0.3,
+        { opacity: 0 }
+      )
+      .to('#GSTR-1', 0.4, { y: '-=38', opacity: 0 })
+      .to('#GSTR-2', 0.4, { y: '-=38', opacity: 1 })
+      .to('#clicked', 0.3, { opacity: 1 })
+      .to('#Window', 0.3, { opacity: 1 })
+      .from(
+        '#Rectangle_152, #Rectangle_153,#Rectangle_154, #Rectangle_155',
+        0.3,
+        { opacity: 0, scaleX: 0 },
+        '-=0.1'
+      )
+      .from(
+        '#Rectangle_156, #Rectangle_157, Cancel, Export',
+        0.3,
+        { opacity: 0 },
+        '-=0.3'
+      )
+      .to('#expclicked-2', 0.4, { opacity: 1, delay: 1 })
+      .fromTo(
+        '#Indicator',
+        0.3,
+        {
+          scale: 0,
+          transformOrigin: '50% 50%'
+        },
+        { opacity: 1, scale: 1 }
+      )
+      .to('#Exported_Successfully', 0.4, { opacity: 1 }, '-=0.3')
+      .to(
+        '#Window, #Indicator, #Exported_Successfully, #clicked, #expclicked-2',
+        0.3,
+        { opacity: 0 }
+      )
+      .to('#GSTR', 0.4, { opacity: 0, delay: 1 })
+
+    scene.setTween(timeline)
+    this.$ksvuescr.$emit('addScene', 'scene4', scene)
+  },
+  destroyed() {
+    this.$ksvuescr.$emit('destroyScene', 'scene4')
+  }
+}
+</script>
+
+<style scoped>
+</style>

@@ -53,20 +53,23 @@ export default {
 .container
   display: flex
   flex-direction: row
+  justify-content: flex-start
   flex-wrap: wrap
-  min-height: 80vh
 
 .screen
+  min-width: 90vw
   flex-wrap: wrap
+
+.icon
+  min-width: 5vw
 
 .title
   font-size: 3rem
 
-.card
+.feature
   background-color: rgba(249,249,249,1)
   width: 30vw
-  margin: 20px auto
-  top: -50px
+  margin: 1vw auto
   padding: 18px
   border-radius: 10px
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1)
@@ -78,18 +81,18 @@ export default {
 
 
 
-.card-image
+.feature-icon
   width: 42px
   height: 42px
   margin: 12px auto
   img
     width: 100%
 
-.card-title
+.feature-title
   margin: 14px auto
   font-weight: bold
   font-size: 1.5rem
 
-.card-description
+.feature-description
   font-size: 15px
 </style>
