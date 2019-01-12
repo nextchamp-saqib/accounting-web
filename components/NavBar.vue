@@ -7,7 +7,7 @@
       </nuxt-link>
     </div>
     <div class="navbar-right">
-      <nuxt-link to="/docs">Docs</nuxt-link>
+      <nuxt-link to="/docs/quick-start">Docs</nuxt-link>
     </div>
   </div>
 </template>

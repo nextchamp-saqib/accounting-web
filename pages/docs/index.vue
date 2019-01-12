@@ -1,7 +1,5 @@
 <template>
-  <div class="container">
-    <h1>First Docs here</h1>
-  </div>
+  <div class="container">First Docs here</div>
 </template>
 
 <script>

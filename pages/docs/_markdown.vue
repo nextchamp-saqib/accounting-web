@@ -5,12 +5,12 @@
 </template>
 
 <script>
-import hello from './hello.md'
-
 export default {
   computed: {
     markdown() {
-      return hello
+      var currentPath = this.$route.path.split('/')
+      var renderedFile = require('./' + currentPath[2] + '.md')
+      return renderedFile
     }
   }
 }
@@ -19,10 +19,10 @@ export default {
 <style scoped>
 .container {
   min-height: 100vh;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 #docs-view {
   position: relative;
-  top: 5em;
+  top: 2em;
 }
 </style>
